@@ -38,10 +38,8 @@ Note: The other dependencies are part of the Python Standard Library and do not 
 You can run the script using Python:
 
 ```bash
-python your_script.py
+python serviceapp.py
 ```
-
-Replace `your_script.py` with the name of your Python file.
 
 This will create a meeting 24 hours from the current time, lasting for one hour. If the access token is invalid and returns a 401 error, the script will automatically refresh the tokens and retry creating the meeting.
 
